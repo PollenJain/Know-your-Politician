@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     all_mp-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    28
+Attributes:   8
+              Party
+              Term
+              Age
+              Sex
+              Education
+              Questions
+              Debates
+              Bills
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 11.725134600639237
+
+Initial starting points (random):
+
+Cluster 0: 0.5,1,0.674419,0,0.75,0.002513,0.159091,0
+Cluster 1: 0,0,0,0,1,0.907035,0.068182,0
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+                (28.0)     (13.0)     (15.0)
+============================================
+Party           0.2321     0.1923     0.2667
+Term             0.244     0.4231     0.0889
+Age             0.4468     0.6136     0.3023
+Sex             0.0357          0     0.0667
+Education        0.683     0.6635        0.7
+Questions       0.4322     0.0877     0.7307
+Debates         0.2967     0.1049     0.4629
+Bills          -0.0357    -0.2308     0.1333
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      13 ( 46%)
+1      15 ( 54%)
+

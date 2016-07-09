@@ -1,0 +1,11 @@
+Meaning,Code
+10th Pass,0
+12thPass,1
+Diploma, 1.5
+Graduate Professional,2
+Post Graduate,3
+Doctorate,4
+
+1001- BJP
+1002 - INC
+1003 - Janata Dal (Secular)
