@@ -1,7 +1,0 @@
-This file decrypts "LokSabha_Politician_Updated.csv"
-
-ID,Party,Name,Constituency,
-1,BJP,PC Mohan,Bangalore Central,
-2,BJP,Ananth Kumar,Bangalore South,
-3,BJP,DV Sadananda Gowda,Bangalore North,
-4,INC,DK Suresh,Bangalore Rural,
